@@ -53,6 +53,12 @@ android {
 
 dependencies {
 
+    implementation ("com.google.android.gms:play-services-location:21.0.1") // For FusedLocationProviderClient
+
+
+    implementation("com.google.maps.android:maps-compose:2.15.0")
+    implementation("com.google.android.gms:play-services-maps:18.1.0")
+
     implementation("androidx.navigation:navigation-compose:2.7.4")
 
     //Compose ViewModel
